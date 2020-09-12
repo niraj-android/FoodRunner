@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".fragments.OrderHistoryFragment">
+
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+        android:id="@+id/txtPreviousOrder"
+    android:text="@string/your_previous_orders_are_listed_below"
+    android:textSize="20sp"
+    android:textColor="#000000"
+    android:layout_margin="5dp"
+    android:textAlignment="center"
+    android:textStyle="bold"/>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/colorPrimaryDark"
+        android:layout_below="@id/txtPreviousOrder"
+        android:id="@+id/line"/>
+    <androidx.recyclerview.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/orderHistoryRecycler"
+        android:layout_below="@id/line"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/orderHistoryProgressLayout"
+        android:background="#ffffff">
+        <ProgressBar
+            android:id="@+id/orderHistoryProgressBar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"/>
+
+
+    </RelativeLayout>
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/empty"
+        >
+        <ImageView
+            android:id="@+id/imgEmpty"
+            android:layout_width="240dp"
+            android:layout_height="240dp"
+            android:layout_centerInParent="true"
+            android:background="@drawable/ic_action_empty"
+
+            />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/imgEmpty"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="4dp"
+            android:layout_marginStart="65dp"
+            android:text="@string/order_history_empty"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+
+    </RelativeLayout>
+
+
+
+
+
+
+
+
+
+
+</RelativeLayout>

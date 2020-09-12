@@ -1,0 +1,49 @@
+<resources>
+    <string name="app_name">FoodRunner</string>
+    <string name="food_runner">Food Runner</string>
+    <string name="email">Email</string>
+    <string name="mobile_number">Mobile Number</string>
+    <string name="address">Delivery Address</string>
+    <string name="choose_password">Create Password(min 6 characters)</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="enter_name">Name</string>
+    <string name="registration">Register</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="forgot_password">Forgot Password?</string>
+
+    <string name="enter_mobile_forgot_password">Enter your Mobile Number and Email below:</string>
+    <string name="next">Next</string>
+    <string name="home">Home</string>
+    <string name="user_profile">User Profile</string>
+    <string name="favourite_restaurant">Favourite Restaurant</string>
+    <string name="order_history">Order History</string>
+    <string name="faqs">FAQs</string>
+    <string name="logout">Logout</string>
+    <string name="open_drawer">Open Drawer</string>
+    <string name="close_drawer">Close Drawer</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="preference_file_name">Login Preference</string>
+    <string name="Q1">Q1) Is any amount deducted if i cancel my order?</string>
+    <string name="Ans1">Ans: Yes,if you cancel any order 5% of the ordered amount will be deducted for service charge.</string>
+    <string name="Q2">Q2) How much time you take to deliver?</string>
+    <string name="Ans2">Ans: It depends on the customer\'s location.We serve in limited radius so that we can reach the delivery address within 15 minutes.</string>
+    <string name="Q3">Q3) What payment method you accept?</string>
+    <string name="Ans3">Ans: UPI, GooglePay, Phonepe, any debit card and also COD.</string>
+    <string name="Q4">Q4) What is the quality of food?Is it hygienic?</string>
+    <string name="Ans4">Ans: Yes,don\'t worry, we have professional chefs and well maintained kitchen.</string>
+    <string name="Q5">Q5) Do you have any restaurant/fast-food?</string>
+    <string name="Ans5">Ans: No, We make only Home-delivery.</string>
+    <string name="enter_the_received_otp_below">Enter the received OTP below</string>
+    <string name="otp">OTP</string>
+    <string name="new_password">New Password</string>
+    <string name="match_password">Confirm Password</string>
+    <string name="submit">Submit</string>
+    <string name="don_t_have_account_register">Don\'t have account?Register</string>
+    <string name="choose_from_menu_listed_below">Choose from menu listed below:</string>
+    <string name="your_previous_orders_are_listed_below">Your previous orders are listed below:</string>
+    <string name="no_favourite_restaurant">No Favourite Restaurant</string>
+    <string name="order_history_empty">Order History Empty</string>
+    <string name="rs_250_person">Rs 250/person</string>
+</resources>
